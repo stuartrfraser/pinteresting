@@ -12,9 +12,16 @@ $navbar-default-bg:				white;
 
 .center {
 	text-align: center;
+	padding-top: 75px;
 
 }
 
 .navbar-brand {
 	font-weight: bold;
+}
+
+.jumbotron {
+	 background: url('http://tmacfitness.com/wp-content/uploads/2013/04/Beauty-of-nature-random-4884759-1280-800.jpg') no-repeat center center;
+	 background-size: cover; 
+	 height: 550px;
 }
