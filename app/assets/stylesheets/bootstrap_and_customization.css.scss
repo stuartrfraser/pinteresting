@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans');
+
+$font-family-sans-serif: 'Quattrocento Sans', sans-serif;
+$body-bg:						#ecf0f1;
+$jumbotron-bg:					white;
+$brand-primary:					#c0392b;
+$navbar-default-brand-color:	#c0392b;
+$navbar-default-link-color:		#c0392b;
+$navbar-default-bg:				white;
+
+@import 'bootstrap';
+
+.center {
+	text-align: center;
+
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
