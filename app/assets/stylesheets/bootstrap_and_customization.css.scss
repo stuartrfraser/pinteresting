@@ -6,6 +6,7 @@ $jumbotron-bg:					white;
 $brand-primary:					#3498db;
 $navbar-default-brand-color:	#3498db;
 $navbar-default-link-color:		#3498db;
+$navbar-height:					45px;
 $navbar-default-bg:				white;
 
 @import 'bootstrap';
@@ -24,8 +25,11 @@ $navbar-default-bg:				white;
 	 background: url('http://tmacfitness.com/wp-content/uploads/2013/04/Beauty-of-nature-random-4884759-1280-800.jpg') no-repeat center center;
 	 background-size: cover; 
 	 height: 550px;
+	 margin-top: -45px;
 }
 
 .navbar {
 	margin-bottom: 0px;
+	opacity: 0.9;
+	
 }
