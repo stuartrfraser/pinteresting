@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans');
 
 $font-family-sans-serif: 'Quattrocento Sans', sans-serif;
-$body-bg:						#ecf0f1;
+//$body-bg:						#ecf0f1;
 $jumbotron-bg:					white;
 $brand-primary:					#3498db;
 $navbar-default-brand-color:	#3498db;
 $navbar-default-link-color:		#3498db;
 $navbar-height:					45px;
 $navbar-default-bg:				white;
+$navbar-border-radius:			0px;
 
 @import 'bootstrap';
 
@@ -15,6 +16,13 @@ $navbar-default-bg:				white;
 	text-align: center;
 	padding-top: 75px;
 
+}
+
+.body {
+	
+	background-image:url('http://tmacfitness.com/wp-content/uploads/2013/04/Beauty-of-nature-random-4884759-1280-800.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%; 
 }
 
 .navbar-brand {
@@ -26,10 +34,15 @@ $navbar-default-bg:				white;
 	 background-size: cover; 
 	 height: 550px;
 	 margin-top: -45px;
-}
+	}
 
 .navbar {
 	margin-bottom: 0px;
 	opacity: 0.9;
-	
+
+}
+
+.panel {
+	opacity: 0.9;
+	margin-top: 5px;
 }
