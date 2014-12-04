@@ -17,13 +17,6 @@ $navbar-border-radius:			0px;
 
 }
 
-.body {
-	
-	background-image:url('http://tmacfitness.com/wp-content/uploads/2013/04/Beauty-of-nature-random-4884759-1280-800.jpg');
-	background-repeat: no-repeat;
-	background-size: 100%; 
-}
-
 .navbar-brand {
 	font-weight: bold;
 }
@@ -32,22 +25,19 @@ $navbar-border-radius:			0px;
 	 background: url('http://tmacfitness.com/wp-content/uploads/2013/04/Beauty-of-nature-random-4884759-1280-800.jpg') no-repeat center center;
 	 background-size: cover; 
 	 height: 550px;
-	 margin-top: -45px;
+	 margin-top: -55px;
 	}
 
 .navbar {
 	margin-bottom: 0px;
 	opacity: 0.9;
+	height: 45px;
+	margin-bottom: 0px;
 
 }
 
 .panel {
 	opacity: 0.9;
 	margin-top: 5px;
-
-}
-
-.navbar {
-	margin-bottom: 0px;
 
 }
